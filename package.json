@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
-  "homepage": "http://MichaelG623.github.io/gift-jar",
+  "homepage": "http://MichaelG623.github.io/gift-jar/gift-jar",
   "dependencies": {
     "react-scripts": "^5.0.1"
   }
