@@ -7,7 +7,7 @@ import { getAuth, signInWithEmailAndPassword, setPersistence, browserSessionPers
 
 function App() {
 
-  //Initialize connection to Firebase project
+  //Initializes connection to Firebase project
   const firebaseConfig = {
       apiKey: "AIzaSyC7XwxE8YhVfBzqJrEShk7PSEtb3OWml3g",
       authDomain: "savannah-gift-jar.firebaseapp.com",
@@ -18,7 +18,7 @@ function App() {
     };
   initializeApp(firebaseConfig);
 
-  //Handles authentication with Firebase
+  //Handles the authentication with Firebase
   const auth = getAuth();
   function handleLogin(e) {
     e.preventDefault();
