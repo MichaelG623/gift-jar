@@ -9,8 +9,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
+  text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.Form-login-password {
+  padding-left: 15px;
+}
+
+.Form-login-button {
+  margin-left: 15px;
+}
+
+p {
+  font-size: calc(15px + 2vmin);
+}
+
+.App-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-jar {
@@ -135,4 +159,55 @@
 
 .App-button:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.App-bullet {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+li {
+  list-style-type: none;
+}
+
+.App-bullet-red {
+  height: 20px;
+  width: 20px;
+  background: #e94343;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.App-bullet-yellow {
+  height: 20px;
+  width: 20px;
+  background: #ffd966;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.App-bullet-purple {
+  height: 20px;
+  width: 20px;
+  background: #623878;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.App-bullet-green {
+  height: 20px;
+  width: 20px;
+  background: #00ff80;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.App-bullet-blue {
+  height: 20px;
+  width: 20px;
+  background: #0080ff;
+  border: 2px solid black;
+  display: inline-block;
 }
