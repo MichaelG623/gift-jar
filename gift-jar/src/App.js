@@ -18,7 +18,7 @@ function App() {
     };
   initializeApp(firebaseConfig);
 
-  //Handles the authentication with Firebase
+  //Handles the authentication with Firebase 
   const auth = getAuth();
   function handleLogin(e) {
     e.preventDefault();
