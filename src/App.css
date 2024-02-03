@@ -11,11 +11,6 @@
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
-  text-shadow:
-		-2px -2px 0 #000,
-		2px -2px 0 #000,
-		-2px 2px 0 #000,
-		2px 2px 0 #000;
 }
 
 .Form-login-password {
