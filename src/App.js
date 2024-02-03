@@ -142,7 +142,6 @@ function App() {
     getDocs(redQuery)
       .then((snapshot) => {
         snapshot.docs.forEach((document) => {
-          console.log(document.data());
           setRedText(document.data().text);
           const docRef = doc(db, "redslip", document.id);
           updateDoc(docRef, {
@@ -174,7 +173,6 @@ function App() {
     getDocs(yellowQuery)
       .then((snapshot) => {
         snapshot.docs.forEach((document) => {
-          console.log(document.data());
           setYellowText(document.data().text);
           const docRef = doc(db, "yellowslip", document.id);
           updateDoc(docRef, {
@@ -206,7 +204,6 @@ function App() {
     getDocs(purpleQuery)
       .then((snapshot) => {
         snapshot.docs.forEach((document) => {
-          console.log(document.data());
           setPurpleText(document.data().text);
           const docRef = doc(db, "purpleslip", document.id);
           updateDoc(docRef, {
@@ -238,7 +235,6 @@ function App() {
     getDocs(greenQuery)
       .then((snapshot) => {
         snapshot.docs.forEach((document) => {
-          console.log(document.data());
           setGreenText(document.data().text);
           setGreenLink(document.data().link);
           const docRef = doc(db, "greenslip", document.id);
@@ -271,7 +267,6 @@ function App() {
     getDocs(blueQuery)
       .then((snapshot) => {
         snapshot.docs.forEach((document) => {
-          console.log(document.data());
           setBlueText(document.data().text);
           const docRef = doc(db, "blueslip", document.id);
           updateDoc(docRef, {
